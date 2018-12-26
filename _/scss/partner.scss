@@ -1,0 +1,16 @@
+.h-225p {
+    height: 225px;
+}
+
+.btn-outline-secondary {
+    color: #3d5d6f;
+    background-color: transparent;
+    background-image: none;
+    border-color: #3d5d6f;
+}
+
+.text-hover-primary {
+    &:hover {
+        color: #d60e96 !important;
+    }
+}
