@@ -32,4 +32,5 @@
       </ul>
     </div>
   </div>
+  {{post_javascript}}
 [/entry]
