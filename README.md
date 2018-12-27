@@ -247,7 +247,7 @@ Add the following repeater shortcode.
   <div class="text-center">
     <p class="lead">{{post_intro}}</p>
   </div>
-  <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]"></div>
+  <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]">
 
   <div class="row mt-5 px-5">
     <div class="col-lg-8">
