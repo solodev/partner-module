@@ -244,10 +244,12 @@ Add the following repeater shortcode.
 
 ```
 [entry]
-  <div class="text-center">
-    <p class="lead">{{post_intro}}</p>
+  <div class="row">
+    <div class="col-12 text-center">
+      <p class="lead">{{post_intro}}</p>
+      <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]">
+    </div>
   </div>
-  <img alt="{{heading_title}}" class="w-100 img-fluid my-4" src="[get_asset_file_url id={{featured_detail_image}}]">
 
   <div class="row mt-5 px-5">
     <div class="col-lg-8">
@@ -277,7 +279,6 @@ Add the following repeater shortcode.
       </ul>
     </div>
   </div>
-  {{post_javascript}}
 [/entry]
 
 ```
