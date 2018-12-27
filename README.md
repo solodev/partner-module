@@ -279,6 +279,7 @@ Add the following repeater shortcode.
       </ul>
     </div>
   </div>
+  {{post_javascript}}
 [/entry]
 
 ```
